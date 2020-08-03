@@ -9,6 +9,9 @@ public class Array {
         reverseArray(myArray);
         System.out.println("Reversed array: "+ Arrays.toString(myArray));
 
+        sortArray2(myArray);
+        sortArray1(myArray);
+
 
 //        int[] myIntegers = getIntegers(5);
 
@@ -35,7 +38,7 @@ public class Array {
 
     public static void sortArray1(int[] array) {
         Arrays.sort(array);
-        System.out.print("Sorted array: ");
+        System.out.print("Sorted array descending: ");
         for (int i = array.length-1; i >= 0; i--) {
             System.out.print(array[i] + ", ");
         }
@@ -45,6 +48,7 @@ public class Array {
     public static int[] sortArray2(int[] array) {
         int[] sortedArray = Arrays.copyOf(array, array.length); //create a copy of array
         boolean sorted = false;
+        System.out.print("Sorted array ascending: ");
         while (!sorted) {
             sorted = true;
             for(int i = 0; i < array.length-1; i++) {
@@ -55,7 +59,6 @@ public class Array {
                     sorted = false;
                 }
             }
-
         }
         printArray(array);
         return sortedArray;
