@@ -1,4 +1,4 @@
-# JavaBasics
+# Java Basics
 self-study
 
 #Data Type	#Size	    #Description
