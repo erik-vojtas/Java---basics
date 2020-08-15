@@ -50,3 +50,4 @@ Different Package Non-subclass	Y	            N	          N	          N
 - Methods declared protected in superclass must be public or protected in subclasses
 - Private methods are not inherited
 
+
