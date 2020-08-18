@@ -14,6 +14,20 @@ boolean	  1 bit 	    Stores true or false values
 char	    2 bytes	    Stores a single character/letter or ASCII values
 
 
+Operators in Java
+Java supports a rich set of operators that can be classified into categories as below :
+
+Operator Category	Operators
+Arithmetic operators	+,-,/,*,%
+Relational operators	<, >, <=, >=,==, !=
+Logical operators	&& , ||
+Assignment operator	=, +=, −=, ×=, ÷=, %=, &=, ^=, |=, <<=, >>=, >>>=
+Increment and Decrement operator	++ , - -
+Conditional operators	?:
+Bitwise operators	^, &, |
+Special operators	. (dot operator to access methods of class)
+
+
 #Scope of Variables
 Local	                                          Instance	                                                  Class/Static
 
