@@ -1,7 +1,7 @@
 # Java Basics
 self-study
 
-Theory
+THEORY
 
 #Data Type	#Size	    #Description
 byte	    1 byte	    Stores whole numbers from -128 to 127
