@@ -1,8 +1,5 @@
-# Java Basics
+# Java Basics - Theory
 self-study
-
-# THEORY
-
 
 # Data Types
 #Data Type	#Size	    #Description
