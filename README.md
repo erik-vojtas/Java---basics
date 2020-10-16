@@ -129,21 +129,25 @@ while (it.hasNext()) {
     i += pair.getKey() + pair.getValue();
 }
 
+
 2. Using foreach and Map.Entry
 long i = 0;
 for (Map.Entry<Integer, Integer> pair : map.entrySet()) {
     i += pair.getKey() + pair.getValue();
 }
 
+
 3. Using forEach from Java 8
 final long[] i = {0};
 map.forEach((k, v) -> i[0] += k + v);
+
 
 4. Using keySet and foreach
 long i = 0;
 for (Integer key : map.keySet()) {
     i += key + map.get(key);
 }
+
 
 5. Using keySet and iterator
 long i = 0;
@@ -153,6 +157,7 @@ while (itr2.hasNext()) {
     i += key + map.get(key);
 }
 
+
 6. Using for and Map.Entry
 long i = 0;
 for (Iterator<Map.Entry<Integer, Integer>> entries = map.entrySet().iterator(); entries.hasNext(); ) {
@@ -160,20 +165,24 @@ for (Iterator<Map.Entry<Integer, Integer>> entries = map.entrySet().iterator(); 
     i += entry.getKey() + entry.getValue();
 }
 
+
 7. Using the Java 8 Stream API
 final long[] i = {0};
 map.entrySet().stream().forEach(e -> i[0] += e.getKey() + e.getValue());
+
 
 8. Using the Java 8 Stream API parallel
 final long[] i = {0};
 map.entrySet().stream().parallel().forEach(e -> i[0] += e.getKey() + e.getValue());
 Using IterableMap of Apache Collections
-
 long i = 0;
+
+
 9. MapIterator<Integer, Integer> it = iterableMap.mapIterator();
 while (it.hasNext()) {
     i += it.next() + it.getValue();
 }
+
 
 10. Using MutableMap of Eclipse (CS) collections
 final long[] i = {0};
