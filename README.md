@@ -191,7 +191,40 @@ mutableMap.forEachKeyValue((key, value) -> {
 });
 
 
+# HashMap vs TreeMap vs LinkedHashMap
+All three classes HashMap, TreeMap and LinkedHashMap implements java.util.Map interface, and represents mapping from unique key to values.
 
+1. HashMap
+A HashMap contains values based on the key.
+It contains only unique elements.
+It may have one null key and multiple null values.
+It maintains no order.
+public class HashMap<K,V> extends AbstractMap<K,V> implements Map<K,V>, Cloneable, Serializable
+
+
+2. LinkedHashMap
+A LinkedHashMap contains values based on the key.
+It contains only unique elements.
+It may have one null key and multiple null values.
+It is same as HashMap instead maintains insertion order. //See class deceleration below
+public class LinkedHashMap<K,V> extends HashMap<K,V> implements Map<K,V>
+
+
+3. TreeMap
+A TreeMap contains values based on the key. It implements the NavigableMap interface and extends AbstractMap class.
+It contains only unique elements.
+It cannot have null key but can have multiple null values.
+It is same as HashMap instead maintains ascending order(Sorted using the natural order of its key.).
+public class TreeMap<K,V> extends AbstractMap<K,V> implements NavigableMap<K,V>, Cloneable, Serializable
+Hashtable
+
+
+4. HashTable 
+A Hashtable is an array of list. Each list is known as a bucket. The position of bucket is identified by calling the hashcode() method. A Hashtable contains values based on the key.
+It contains only unique elements.
+It may have not have any null key or value.
+It is synchronized.
+It is a legacy class.
 
 
 
