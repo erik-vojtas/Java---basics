@@ -2,6 +2,7 @@
 self-study
 
 # Data Types
+Primitive Types
 #Data Type	#Size	    #Description
 byte	      1 byte	    Stores whole numbers from -128 to 127
 short	      2 bytes	    Stores whole numbers from -32,768 to 32,767
@@ -11,6 +12,13 @@ float	      4 bytes	    Stores fractional numbers. Sufficient for storing 6 to 7
 double	    8 bytes	    Stores fractional numbers. Sufficient for storing 15 decimal digits
 boolean	    1 bit 	    Stores true or false values
 char	      2 bytes	    Stores a single character/letter or ASCII values
+
+
+Reference Types
+Array - provides a fixed-size data structure that stores data elements of the same type.
+Class - designed to provide inheritance, polymorphism, and encapsulation. Usually models something in the real world and consists of a set of values that holds data and a set of methods that operates on the data.
+Enumeration - a reference for a set of objects that represents a related set of choices.
+Interface - provides a public API and is “implemented” by Java classes.
 
 
 # Operators
