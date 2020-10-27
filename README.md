@@ -1,6 +1,11 @@
 # Java Basics - Theory
 self-study
 
+# Java
+The heart of our digital lifestyle. It's the platform for launching careers, exploring human-to-digital interfaces, architecting the world's best applications, and unlocking innovation everywhere—from garages to global organizations.
+Object oriented, high-level, compiled, platform independent programming language.
+SE, EE, ME
+
 # Data Types
 Primitive Types
 #Data Type	#Size	    #Description
@@ -233,11 +238,3 @@ It contains only unique elements.
 It may have not have any null key or value.
 It is synchronized.
 It is a legacy class.
-
-
-
-
-
-
-
-
