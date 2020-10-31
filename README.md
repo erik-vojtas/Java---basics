@@ -6,6 +6,12 @@ The heart of our digital lifestyle. It's the platform for launching careers, exp
 Object oriented, high-level, compiled, platform independent programming language.
 SE, EE, ME
 
+
+# History of Java
+developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. 
+James Gosling is known as the father of Java. 
+Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the Oak name to Java.
+
 # Data Types
 Primitive Types
 #Data Type	#Size	    #Description
