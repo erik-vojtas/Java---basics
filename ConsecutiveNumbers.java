@@ -12,7 +12,7 @@ public class ConsecutiveNumbers {
 //    cons([5, 6, 7, 8, 9, 9]) ➞ false, 9 appears twice
 
     public static void main(String[] args) {
-        int[] arr1 = {5, 1, 4, 3, 2};
+        int[] arr1 = {5, 1, 4, 3, 2, 6,};
         int[] arr2 = {5, 1, 4, 3, 2, 8};
         int[] arr3 = {5, 6, 7, 8, 9, 9};
         System.out.println(cons(arr1));
@@ -21,6 +21,11 @@ public class ConsecutiveNumbers {
     }
 
     public static boolean cons(int[] arr) {
+//        // 1. quick solution
+//        Arrays.sort(arr);
+//        return (arr[arr.length - 1] - arr[0]) == (arr.length - 1);
+
+        // 2. solution
         // check duplicates
         Set<Integer> setOfInt = new HashSet<Integer>();
         for (int n : arr) {
@@ -48,5 +53,8 @@ public class ConsecutiveNumbers {
         }
         return found;
     }
+
+    }
+
 
 }
