@@ -244,3 +244,4 @@ It contains only unique elements.
 It may have not have any null key or value.
 It is synchronized.
 It is a legacy class.
+
