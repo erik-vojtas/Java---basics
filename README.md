@@ -32,8 +32,6 @@ Enumeration - a reference for a set of objects that represents a related set of 
 Interface - provides a public API and is “implemented” by Java classes.
 
 
-
-
 # Operators
 Java supports a rich set of operators that can be classified into categories as below :
 
@@ -246,4 +244,5 @@ It contains only unique elements.
 It may have not have any null key or value.
 It is synchronized.
 It is a legacy class.
+
 
